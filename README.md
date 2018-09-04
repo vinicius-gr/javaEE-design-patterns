@@ -54,3 +54,18 @@ Outra parte importante do sucesso na entrega foi a aproximação entre operaçõ
 Componentes centralizados nao cabem mais no paradigma. Ao invés de roteamento inteligente e transformações, micro-serviços usam rotas simples e encapsulam lógica no endpoint. Não há um tamanho definido para eles. Tratam-se de haver um único propósito para cada um. Ainda sim não são completamente perfeitos para as operações. 
 
 ## Containers: Fully Contained Applications
+
+Containers são uma abordagem de virtualização na qual a própria camada de virtualização roda como uma aplicação junto ao operating system (OS). O kernel do OS roda no hardware com varias maquinas virtuais instaladas nele, chamadas guests. Cada guest é chamada de container. Foi dado a oportunidade ao desenvolvedor para tambem construir toda infraestrutura middleware, incluindo as configurações e dependencias. 
+
+## Public, Private, Hybrid: Scalable Infrastructures
+
+A demanda por infraestruturas em nuvem se reflete pelo fato de que nem DevOps nem containers produziram economias aos cofres. A conteinerização é altamente acoplada ao hardware. Infraestruturas em nuvem provem serviços por demanda, o que melhora os serviços da containerização.
+
+# Chapter 3 -Designing Software for a Scalable Enterprise
+
+Como arquitetos e desenvolvedores podem desenvolver aplicações para empresas que necessitam escalar rapidamente? Microsserviços são a escolha certa para sistemas muito complexos para serem tratados como molitos. O ponto principal é nem sequer considere o uso de uma arquitetura de microsserviços, a menos que você tem um sistema que é muito grande e complexo para ser construído como um clássico monólito. Como resultado, a maioria dos sistemas de software modernos ainda deve ser construído como um único aplicativo que é modular e leva vantagem dos padrões de arquitetura de software de última geração.
+
+## Greenfield Versus Brownfield
+
+A maioria dos softwares existentes hoje foram construídos anos atrás. A nao ser por uma necessidade extremante, raramente a hipotese de construir um software do 0 é considerada. Qual seria a melhor abordagem? Começar um novo desenvolvimento do 0 (greenfield) ou fatiar uma aplicação existente em serviços (brownfield)? Tudo depende do domínio de negócio.
+
